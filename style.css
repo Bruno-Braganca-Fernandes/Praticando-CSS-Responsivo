@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     font-family: Poppins, sans-serif;
 }
 
@@ -111,6 +112,61 @@ header .container {
     background-image: url(images/freepik-export-2024111521463302ng.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75vh;
     width: 100vw;
+    color: #fff;
+}
+
+.about .store-image {
+    padding: 40px 70px 40px 15px;
+    margin-left: 110px;
+    margin-right: 100px;
+    /* background-color: #ccc; */
+}
+
+.about div img {
+    height: 18.75em;
+    width: 18.75em;
+    border-radius: 18.75em;
+    padding: 1em;
+    background-color: #fff;
+    border-bottom: 4px solid #E5012E;
+    overflow-x: hidden;
+}
+
+.about span {
+    background-color: #E5012E;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .3em;
+    border-radius: 1em;
+}
+
+.about h2 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.about p {
+    margin-bottom: 1em;
+}
+
+.about .sale-button {
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #E5012E;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.about button {
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #fff;
+    color: #000;
 }
