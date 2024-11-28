@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
     font-family: Poppins, sans-serif;
 }
 
@@ -116,15 +115,13 @@ header .container {
     justify-content: flex-start;
     align-items: center;
     height: 75vh;
-    width: 100vw;
     color: #fff;
 }
 
 .about .store-image {
-    padding: 40px 70px 40px 15px;
-    margin-left: 110px;
-    margin-right: 100px;
-    /* background-color: #ccc; */
+    padding: 2.5rem 4.4rem 2.5rem .9rem;
+    margin-left: 6.9rem;
+    margin-right: 6.3rem;
 }
 
 .about div img {
