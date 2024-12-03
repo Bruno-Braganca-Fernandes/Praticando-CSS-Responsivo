@@ -107,6 +107,10 @@ header .container {
     transform: scale(1.1);
 }
 
+main {
+    background-color: #F2F2F2;
+}
+
 .about {
     background-image: url(images/freepik-export-2024111521463302ng.jpeg);
     background-repeat: no-repeat;
@@ -174,19 +178,19 @@ header .container {
     background-color: #F2F2F2;
 }
 
-.section-main-text {
+.showcase-main-text {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.section-main-text p {
+.showcase-main-text p {
     background-color: #000;
     color: #fff;
     padding: .3rem;
     border-radius: .3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .filters {
@@ -203,4 +207,56 @@ header .container {
     border: none;
     border-radius: .3rem;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cellphones {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: space-evenly;
+}
+
+.cellphones img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 1rem;
+}
+
+.cellphone-description {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+
+}
+
+.cellphone-description span {
+    background-color: #d6d6d6;
+    color: #4e4e4e;
+    padding: .2rem;
+    border-radius: .4rem;
+}
+
+.cellphone-description p {
+    color: #4e4e4e;
+    text-decoration: underline;
+}
+
+.cellphone-description button {
+    width: 100%;
+    background-color: #e30613;
+    color: #ffffff;
+    border: none;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: .65rem;
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
 }
