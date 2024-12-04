@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <title>Celulig</title>
+    <title>SmartG</title>
 </head>
 
 <body>
@@ -44,20 +44,22 @@
         </div>
     </header>
     <main>
-        <section class="about">
-            <div class="store-image">
-                <img src="./images/Loja icônica da Apple em Nova York é reformada.jfif" alt="imagem da loja">
-            </div>
-            <div>
-                <span>Separamos para você</span>
-                <h2>Nossa loja tem a maior variedade <br> de marcas e aparelhos da região <br> com os produtos mais
-                    vendidos
-                    com até 25% de <br> desconto. Corra, pois é por tempo limitado!</h2>
-                <p>Os melhores produtos com as melhores condições de pagamento estão aqui.</p>
-                <button class="sale-button">Ir para ofertas</button>
-                <button>Ir para loja</button>
-            </div>
-        </section>
+        <div class="about-content">
+            <section class="about">
+                <div class="store-image">
+                    <img src="./images/Loja icônica da Apple em Nova York é reformada.jfif" alt="imagem da loja">
+                </div>
+                <div>
+                    <span>Separamos para você</span>
+                    <h2>Nossa loja tem a maior variedade <br> de marcas e aparelhos da região <br> com os produtos mais
+                        vendidos
+                        com até 25% de <br> desconto. Corra, pois é por tempo limitado!</h2>
+                    <p>Os melhores produtos com as melhores condições de pagamento estão aqui.</p>
+                    <button class="sale-button">Ir para ofertas</button>
+                    <button>Ir para loja</button>
+                </div>
+            </section>
+        </div>
         <section class="showcase">
             <div class="showcase-main-text">
                 <h2>Novidades de novembro</h2>
@@ -72,6 +74,7 @@
                         <option value="Samsung">Samsung</option>
                         <option value="Apple">Apple</option>
                         <option value="Xiomi">Xiomi</option>
+                        <option value="Realme">Realme</option>
                     </select>
                 </div>
                 <div class="range">
@@ -84,6 +87,7 @@
                     <select name="condition" id="condition">
                         <option value="">Selecione</option>
                         <option value="novo">Novo</option>
+                        <option value="semi-novo">Semi-novo</option>
                         <option value="usado">Usado</option>
                     </select>
                 </div>
@@ -104,37 +108,88 @@
                         <option value="">Selecione</option>
                         <option value="preto">Preto</option>
                         <option value="branco">Branco</option>
+                        <option value="vermelho">Vermelho</option>
+                        <option value="azul">Azul</option>
                     </select>
                 </div>
             </div>
             <div class="cellphones">
                 <div class="cellphone-description">
                     <img src="./images/motorola-azul.webp" alt="">
-                    <h3>Motorola G54</h3>
+                    <h3>Motorola Moto G54 256GB Azul 5G 8GB RAM 6,5" Câm. Dupla + Selfie 16MP Dual Chip</h3>
                     <span>Motorola</span>
-                    <p>R$ 1.200.00</p>
+                    <p>R$ 1.117.00</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="cellphone-description">
                     <img src="./images/samsung-vermelho.webp" alt="">
-                    <h3>Motorola G54</h3>
+                    <h3>Samsung Galaxy A10s 32GB Vermelho - 4G 2GB RAM 6,2” Câm. Dupla + Selfie 8MP</h3>
                     <span>Samsung</span>
-                    <p>R$ 1.200.00</p>
+                    <p>R$ 856.00</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="cellphone-description">
                     <img src="./images/xiomi-branco.webp" alt="">
-                    <h3>Motorola G54</h3>
+                    <h3>Xiaomi Redmi Note 13 Pro 5G Dual SIM 256 GB branco 8 GB RAM</h3>
                     <span>Xiomi</span>
-                    <p>R$ 1.200.00</p>
+                    <p>R$ 1.400.00</p>
                     <button>Adicionar ao carrinho</button>
                 </div>
                 <div class="cellphone-description">
                     <img src="./images/iphone-preto.webp" alt="">
-                    <h3>Motorola G54</h3>
+                    <h3>Apple iPhone 12 Preto - 64GB, Câmera Dupla de 12MP, Tela Super Retina XDR de 6,1'', 5G </h3>
                     <span>Apple</span>
-                    <p>R$ 1.200.00</p>
+                    <p>R$ 2.870,00</p>
                     <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/realme-preto.webp" alt="">
+                    <h3>Realme C67 256gb 8gb Ram Cam 108 Mp Nfc 4g Lte - Tela 6,72" - Preto</h3>
+                    <span>Realme</span>
+                    <p>R$ 1.229,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/motorola-roxo.webp" alt="">
+                    <h3>Motorola Moto G84 5G Dual SIM 256 GB Viva Magenta 8 GB RAM</h3>
+                    <span>Motorola</span>
+                    <p>R$ 1.259,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/samsung-preto.webp" alt="">
+                    <h3>Samsung Galaxy S23 5G 256GB Tela 6.1'' 8GB RAM
+                        Câmera Tripla 50M Preto</h3>
+                    <span>Samsung</span>
+                    <p>R$ 2.999,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/xiomi-laranja.jfif" alt="">
+                    <h3>Xiaomi Redmi 9C Laranja 64GB, Tela de 6.53", 3GB de RAM, Câmera Traseira Tripla</h3>
+                    <span>Xiomi</span>
+                    <p>R$ 719,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/iphone-roxo.webp" alt="">
+                    <h3>Apple Iphone 14 Pro Max 128gb Tela De 6.7 Polegadas Câmera 12mp Deep Purple/roxo</h3>
+                    <span>Apple</span>
+                    <p>R$ 5.639,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="cellphone-description">
+                    <img src="./images/realme-gold.webp" alt="">
+                    <h3>Realme C53 6GB RAM + 128GB NFC câmera dupla 50MPX Tela 6.74" Global Dual Sim</h3>
+                    <span>Realme</span>
+                    <p>R$ 982,00</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="pages">
+                    <button class="page active">1</button>
+                    <button class="page">2</button>
+                    <button class="page">3</button>
+                    <button class="page">Próxima</button>
                 </div>
             </div>
         </section>
