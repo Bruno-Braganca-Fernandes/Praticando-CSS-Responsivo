@@ -121,12 +121,12 @@ main {
     height: 75vh;
     color: #fff;
     padding: 0 2.2rem;
+    overflow: hidden;
 }
 
-.about-content {
-    max-width: 1200px;
+.test {
+    max-width: 650px;
     margin: 0 auto;
-    width: 90%;
 }
 
 .about .store-image {
@@ -299,3 +299,5 @@ main {
 .page.active {
     background-color: #000;
 }
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {}
