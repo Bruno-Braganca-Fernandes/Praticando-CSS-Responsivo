@@ -10,7 +10,6 @@ header {
 }
 
 .container {
-    /* max-width: 1200px; */
     width: 90%;
     background-color: #E5012E;
     color: #fff;
@@ -124,9 +123,8 @@ main {
 }
 
 
-.test {
+.about-container {
     display: flex;
-    /* max-width: 1024px; */
     width: 90%;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -360,5 +358,74 @@ main {
     .cellphones {
         grid-template-columns: repeat(3, 30%);
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .logo {
+        font-size: x-large;
+        margin-bottom: 1em;
+    }
+
+    .container {
+        width: 90%;
+        padding: 0.5em;
+    }
+
+    .logo h1 {
+        font-size: 1.2em;
+    }
+
+    .search-form input {
+        width: 100%;
+        padding: 0.5em;
+    }
+
+    .nav-sections {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 5em;
+    }
+
+    .about div img {
+        width: 12em;
+        height: 12em;
+    }
+
+    .about-container {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .about-sales {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .cellphones {
+        grid-template-columns: 1fr;
     }
 }
