@@ -9,6 +9,10 @@ header {
     background-color: #E5012E;
 }
 
+body {
+    background-color: #F2F2F2;
+}
+
 .container {
     width: 90%;
     background-color: #E5012E;
@@ -106,10 +110,6 @@ header .container {
     transform: scale(1.1);
 }
 
-main {
-    background-color: #F2F2F2;
-}
-
 .about {
     background-image: url(images/freepik-export-2024111521463302ng.jpeg);
     background-repeat: no-repeat;
@@ -189,7 +189,6 @@ main {
 
 
 .showcase {
-    background-color: #F2F2F2;
     padding-bottom: 6rem;
 }
 
@@ -306,6 +305,21 @@ main {
 .page.active {
     background-color: #000;
 }
+
+.footer-container {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.footer-container a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     .container {
